@@ -397,4 +397,8 @@
 		$(this).blur();
 	});
 
+    $("#slider3").sliderResponsive({
+        hoverZoom: "off",
+        hideDots: "off"
+    });
 })(jQuery);
