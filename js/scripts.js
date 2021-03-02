@@ -48,6 +48,17 @@
         $(".navbar-collapse").collapse('hide');
     });
 
+    // menu toggle on click will change background color
+    $('button.navbar-toggler').click(function(){
+        if($('.navbar-custom > .container > .navbar-collapse.show').length == 0) {
+            console.log('active');
+            $('.navbar-custom').addClass('active');
+        } else {
+            console.log('deactive');
+            $('.navbar-custom').removeClass('active');
+        }
+    })
+    
 
     /* Image Slider - Swiper */
     var imageSlider = new Swiper('.image-slider', {
