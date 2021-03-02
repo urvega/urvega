@@ -654,10 +654,15 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #27A8DE;
-	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	/* background-color: #27A8DE;
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1); */
 	font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
+}
+
+.navbar-custom.active {
+	background-color: #27A8DE;
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .navbar-custom .container {
@@ -1639,6 +1644,13 @@ a:hover.back-to-top {
 /* Min-width width 768px */
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
+
+	/* Navigation */
+	.navbar-custom {
+		background: transparent;
+		box-shadow: none;
+	}
+	/* end of navigation */
 	
 	/* General Styles */
 	.p-heading {
