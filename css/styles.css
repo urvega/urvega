@@ -1641,6 +1641,35 @@ a:hover.back-to-top {
 	text-align: left;
 }
 
+/****************************************/
+/*     Vision     */
+/****************************************/
+.vision {
+	padding-top: 4rem;
+}
+
+.vision h2 {
+	padding: 2.5rem 3rem 2rem 3rem;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 3.625rem;
+    background-color: #f3f7fd;
+	margin-bottom: 3.5rem;
+	text-align: center;
+}
+
+.vision .text-container > .wrap-text > p {
+	font-size: 1.62rem;
+    line-height: 1.4;
+}
+
+.vision .text-container .text-tiny {
+	color: #c1bfbc;
+	font-weight: 700;
+	font-size: 1rem;
+    line-height: 3.6;
+	display: block;
+}
 
 /*****************************/
 /*     19. Media Queries     */
@@ -1658,7 +1687,6 @@ a:hover.back-to-top {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
-
 }
 
 /* Min-width width 768px */
@@ -1732,6 +1760,14 @@ a:hover.back-to-top {
 	}
 	/* end of testimonials */
 
+	/* vision */
+	.vision .text-container > .horizontal {
+		padding-top: 0px;
+	}
+	
+	.vision .text-container > .vertical {
+		padding-top: 0px;
+	}
 
 	/* Newsletter */
 	.form .text-container {
@@ -1958,6 +1994,15 @@ a:hover.back-to-top {
 	}
 	/* end of details */
 
+	/* vision */
+
+	.vision .text-container > .horizontal {
+		padding-top: 80px;
+	}
+	
+	.vision .text-container > .vertical {
+		padding-top: 210px;
+	}
 
 	/* Video */
 	.basic-2 .image-container {
@@ -2148,6 +2193,18 @@ a:hover.back-to-top {
 	}
 	/* end of details */
 
+	/* vision */
+	.vision h2 {
+		margin-bottom: 3.625rem;
+	}
+
+	.vision .text-container > .horizontal {
+		padding-top: 80px;
+	}
+	
+	.vision .text-container > .vertical {
+		padding-top: 250px;
+	}
 
 	/* Pricing */
 	.cards-2 .card {
